@@ -1,0 +1,28 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- IDE / editor ----
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# ---- Project ----
+# The Iris dataset ships with scikit-learn, so the data/ folder stays empty.
+# Keep the folder in git but ignore any downloaded data files.
+data/*
+!data/.gitkeep

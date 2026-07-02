@@ -1,0 +1,4 @@
+# This folder intentionally left empty.
+# The Iris dataset is loaded directly from scikit-learn (sklearn.datasets.load_iris),
+# so no data files need to be stored here. If you export the dataset to CSV,
+# it will be saved in this folder.
